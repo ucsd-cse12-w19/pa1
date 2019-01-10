@@ -42,7 +42,7 @@ public interface Basket {
 	boolean removeAllFromBasket(Item i);
 
 	/*
-	* Remove all items from the bag
+	* Remove all items from the basket
 	*/
 	void empty();
 
