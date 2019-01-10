@@ -47,11 +47,11 @@ public class BasketTest {
 	
 	@Test
 	public void addedHasCount1() {
-		Basket bagToTest = makeBasket();
+		Basket basketToTest = makeBasket();
 
 		Item i = new Item("Shampoo", 5);
-		bagToTest.addToBasket(i);
-		assertEquals(bagToTest.count(), 1);
+		basketToTest.addToBasket(i);
+		assertEquals(1, basketToTest.count());
 	}
 
 }
